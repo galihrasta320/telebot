@@ -5,8 +5,8 @@ include("db.php");
 class Telebot
 {
     /* Membuat variabel */
-    public $apiToken = "1130101351:AAE7nPeu0EU5JMlRM3gyGPg0tPv1rKzXPAM";
-    public $chatID = "1048455855";
+    public $apiToken = "LETAKKAN TOKEN BOT TELEGRAMMU DISINI";
+    public $chatID = "LETAKKAN ID CHAT DISINI";
     public $message;
 
     /* Membuat Fungsi Pengiriman Pesan */
@@ -29,5 +29,6 @@ class Telebot
         /* Curl Result */
         $hasil = curl_exec($ch);
         curl_close($ch);
+        return $hasil;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 require("library/core.php");
 
-$cek = "Hallo galih!";
+$pesan = "Bayar Utang Wooeee!!!!";
 $sender = new Telebot();
-$sender->send($cek);
+$sender->send($pesan);
